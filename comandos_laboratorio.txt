@@ -1,0 +1,93 @@
+    1  wsl -- status
+    2  wsl --status
+    3  wsl -- status
+    4  wsl --status
+    5  python crm_mcp_server.py
+    6  source .venv/bin/activate
+    7  python crm_mcp_server.py
+    8  ls -l
+    9  source .venv/bin/activate
+   10  python probar_mcp.py
+   11  source .venv/bin/activate
+   12  python probar_mcp.py
+   13  source .venv/bin/activate
+   14  ls -l
+   15  sudo chown kvale:kvale .env crm_mcp_server.py probar_mcp.py clasificar_tiquete_openrouter_mcp.py
+   16  ls-l
+   17  ls -l
+   18  sudo chown kvale:kvale .env crm_mcp_server.py probar_mcp.py clasificar_tiquete_openrouter_mcp.py
+   19  sudo chown kvale:kvale .env crm_mcp_server.py probar_mcp.py clasificar_tiquetes_openrouter_mcp.py
+   20  ls -l
+   21  python crm_mcp_server.py
+   22  sudo apt update
+   23  sudo apt upgrade -y
+   24  sudo apt install python3 python3-pip python3-venv -y
+   25  python3 --version
+   26  mkdir -p ~/clasificador_tiquetes_openrouter
+   27  cd ~/clasificador_tiquetes_openrouter
+   28  python3 -m venv .venv
+   29  source .venv/bin/activate
+   30  pip install --upgrade pip
+   31  pip install fastmcp
+   32  pip install fastmcp "psycopg[binary]" httpx pydantic python-dotenv
+   33  mode .
+   34  code .
+   35  sudo apt update
+   36  sudo apt install postgresql postgresql-contrib -y
+   37  sudo service postgresql start
+   38  sudo service postgresql status
+   39  sudo -u postgres psql
+   40  sudo -u postgres psq
+   41  sudo -u postgres psql
+   42  source .venv/bin/activate
+   43  python crm_mcp_server.py
+   44  source .venv/bin/activate
+   45  python probar_mcp.py
+   46  python clasificar_tiquete_openrouter_mcp.py "El trabajo enviado a Slurm permanece pendiente por límite de QoS"
+   47  python clasificar_tiquetes_openrouter_mcp.py "El trabajo enviado a Slurm permanece pendiente por límite de QoS"
+   48  cd ~
+   49  zip -r clasificador_tiquetes_openrouter.zip clasificador_tiquetes_openrouter
+   50  docker version
+   51  docker compose version
+   52  docker version
+   53  docker compose version
+   54  docker volume create ollama
+   55  docker volume create open-webui
+   56  docker volume ls
+   57  docker run -d   --name open-webui   --restart unless-stopped   -p 127.0.0.1:3000:8080   -v ollama:/root/.ollama   -v open-webui:/app/backend/data   ghcr.io/open-webui/open-webui:ollama
+   58  docker ps
+   59  docker exec -it open-webui ollama pull qwen2.5:0.5b
+   60  docker exec open-webui ollama list
+   61  docker stats open-webui
+   62  cd ~
+   63  mkdir -p proyecto_incidentes_red/{src,documentos,data,resultados}
+   64  cd proyecto_incidentes_red
+   65  ls
+   66  python3 -m venv .venv
+   67  source .venv/bin/activate
+   68  python3 -m venv .venv
+   69  source .venv/bin/activate
+   70  python -m pip install --upgrade pip
+   71  ollama --version
+   72  curl -fsSL https://ollama.com/install.sh | sh
+   73  sudo apt update
+   74  sudo apt install zstd -y
+   75  zstd --version
+   76  curl -fsSL https://ollama.com/install.sh | sh
+   77  ollama --version
+   78  ollama pull qwen2.5:3b
+   79  ollama list
+   80  ollama run qwen2.5:3b
+   81  pip install requests
+   82  nano src/probar_ollama.py
+   83  python src/probar_ollama.py
+   84  psql --version
+   85  sudo service postgresql status
+   86  sudo -u postgres psql
+   87  psql -h 127.0.0.1 -U app_incidentes -d incidentes_red
+   88  pip install fastmcp "psycopg[binary]" python-dotenv
+   89  python -c "import fastmcp, psycopg; print('FastMCP y PostgreSQL OK')"
+   90  nano src/servidor_mcp.py
+   91  python -m py_compile src/servidor_mcp.py
+   92  python src/servidor_mcp.py
+   93  history > comandos_laboratorio.txt
